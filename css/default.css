@@ -1,0 +1,524 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+        float:left;
+	padding: 0;
+	background: white url(images/img01.gif) repeat-x;
+       
+	font: normal small Arial, Helvetica, sans-serif;
+	line-height: 1.8em;
+	color: #838B91;
+}
+#bottom
+{
+ float: bottom;
+ background-color: black;
+ padding: 0px 150px ;
+ word-spacing:20px; 
+ font: italic small Georgia, "Times New Roman", Times, serif;
+ 
+ color:  blue;
+}
+#new
+{
+
+    width:1350px;
+    
+    text-align:right;
+    margin:0;
+    
+    background-color: honeydew;
+    
+
+float:right;
+font: normal small Arial, Helvetica, sans-serif;
+letter-spacing: 1px;
+word-spacing: 10px;
+list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+        
+	padding:0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+        
+	font-weight: normal;
+	color: #468259;
+}
+
+
+h2 {
+	padding-left: 20px;
+	background: url(img07.gif) no-repeat left center;
+        text-align: left;
+	font-size: 22px;
+}
+
+h3 {
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+p, blockquote, ul, ol {
+	margin-top: 0;
+}
+
+blockquote {
+	padding: 0 0 0 40px;
+	background: url(img11.gif) no-repeat;
+	font: italic small Georgia, "Times New Roman", Times, serif;
+        text-align: left;
+	line-height: 1.6em;
+}
+
+a {
+	background: url(img03.gif) repeat-x left bottom;
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	background: none;
+	text-decoration: underline;
+}
+
+/* Wrapper */
+
+#wrapper {
+   
+	background:  #FFFFFF url(img04.gif) repeat-x left bottom;
+}
+
+/* Menu */
+#nav
+{
+    background:  black url(img04.gif) repeat-x left bottom;
+    width:1350px;
+    text-align: right;
+    margin:0px;
+float:right;
+letter-spacing: 1px;
+word-spacing: 20px;
+list-style: none;
+
+}
+#menu {
+	width: 750px;
+	height: 60px;
+	margin: 0 auto;
+
+	
+}
+
+#menu ul {
+	margin: 10;
+	padding: 0;
+        
+	list-style: none;
+}
+
+#menu li {
+	display: block;
+        margin: 0px;
+	float: left;
+	width: 100px;
+	height: 60px;
+	padding: 0 0 0 0px;
+        
+	background: url(img02.gif) no-repeat;
+}
+
+#menu a {
+	display: block;
+	width: 700px;
+	height: 30px;
+	padding: 30px 20px 0px 20px;
+	background: none;
+	letter-spacing: -2px;
+	font: normal 1.6em Georgia, "Times New Roman", Times, serif;
+      
+	color: #468259;
+}
+
+#menu a:hover {
+    
+	/*border-bottom: 4px solid #5A7C50;*/
+	text-decoration: #468259;
+        color: #006312;
+        
+	
+}
+
+#menu .active a {
+	background: #E1E9E2;
+	border-bottom: 4px solid #E1E9E2;
+	text-decoration: none;
+       
+	color: #A6C09B;
+}
+
+/* Header */
+#header {
+	width: 1300px;
+	height: 247px;
+	margin: 0 auto;
+	padding: 11px 50px 10px 0px;
+       
+}
+
+/*#header {
+	width: 754px;
+	height: 247px;
+	margin: 0 auto;
+	padding: 13px 0 0 0;
+       
+}*/
+
+#header h1 {
+	float: left;
+	width: 104px;
+	height: 100px;
+	padding: 104px 100px 0 20px;
+        
+	background: url(images/th.jpg) no-repeat;
+	line-height: 32px;
+	font-size: 30px;
+}
+#header h2 {
+	float: center;
+        margin:  0px 1px;
+	width: 1150px;
+	height: 60px;
+	padding: 170px 0 70px 196px;
+	background: url(../images/medicine.jpg) no-repeat;
+	text-transform: lowercase;
+	text-align: right;
+	letter-spacing: -1px;
+	font-size: 20px;
+	color:#FFFFFF;
+}
+/*#header h2 {
+	float: left float;
+	width: 1000px;
+	height: 70px;
+	padding: 200px 1000px 0 0;
+	background: url(../images/ju.jpg) no-repeat;
+	text-transform: lowercase;
+	text-align: right;
+	letter-spacing: -1px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+ Content */
+
+#content {
+	width: 750px;
+	margin: 0 auto;
+}
+
+/* Posts */
+
+#posts {
+	float: left;
+	width: 510px;
+}
+
+#posts .post {
+	padding-bottom: 30px;
+}
+
+#posts .story {
+	padding: 15px 20px 0 20px;
+	background: url(images/img10.gif) repeat-x
+}
+
+#posts .meta {
+	padding: 5px 0 0 20px;
+	background: url(../images/img03.gif) repeat-x;
+}
+
+#posts .meta p {
+	margin: 0;
+	line-height: normal;
+	font-size: smaller;
+}
+
+#posts ul {
+	list-style: url(images/img12.gif);
+}
+
+#posts ul li {
+}
+
+/* Links */
+
+#left {
+    
+border: 4px solid #E1E9E2;
+    background-color: #A6C09B;
+    margin: 5px;
+        
+	padding:30px;
+        
+	float: left;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size:25px;
+	color: #468259;
+	width: 200px;
+        	
+	height: 1077px;
+}
+
+#left li {
+            font-family: Georgia, "Times New Roman", Times, serif;
+        font-size:15px;
+       
+	font:blue;
+}
+
+#news3 {
+    
+    float: left;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        
+	
+}
+
+#drug {
+    
+        float: left;
+        margin: 10px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size:25px;
+	color: #468259;
+}
+
+
+
+#links {
+     
+    border: 4px solid #E1E9E2;
+    background-color: #A6C09B;
+	float: right;
+	width: 220px;
+        	color: #002166;
+	height: 1142px;
+}
+
+#links ul { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+        height: 150px;
+}
+
+
+#links li ul { 
+	padding: 15px 20px 30px 20px;
+	background: url(images/img10.gif) repeat-x
+        
+}
+
+
+#links li li {
+	padding: 3px 0;
+         
+	background: url(images/img03.gif) repeat-x left bottom;
+}
+
+#links li a { 
+	background: none;
+        
+}
+
+#links li i {
+	font-size: smaller;
+}
+
+
+/* Footer */
+
+#footer {
+    margin: 0px;
+	padding: 40px 0 60px 0;
+        background-color: #A6C09B;
+	/*background: url(images/img08.gif) repeat-x;*/
+        text-align: right;
+        
+        
+}
+
+#footer p {
+	width: 750px;
+        
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #A6C09B;
+}
+
+#footer a {
+	background: none;
+        
+	font-weight: bold;
+	color: #A6C09B;
+}
+
+#legal {
+	margin: 0 auto;
+	text-align: right;
+	font-size: 12px;
+}
+#section {
+ 
+	float: left;
+	margin: 0px 8px;
+	overflow: hidden;
+	padding: 30px 0;
+	width: 850px;
+}
+#section h2 {
+	clear: both;
+	color: #ef414a;
+	font-family: 'Arapey';
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 15px;
+}
+#section img {
+	display: block;
+	float: left;
+	margin: 0px 20px 0 0;
+	padding: 0;
+        height:250px;
+}
+#section p {
+	color: #797979;
+	float: left;
+	font-size: 17px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0 17px 0 0;
+	width: 363px;
+}
+
+#middle {
+ 
+    float: left;
+	margin: 0px;
+	padding: 20px 0 0;
+	overflow: hidden;
+	width: 950px;
+        height:300px;
+        
+}
+#middle div {
+	   background: gainsboro;
+	border: 1px solid #cdcdcd;
+	border-radius: 6px;
+	float: left;
+	margin: 0px 10px;
+	padding: 0;
+	width: 240px;
+}
+#middle div > a {
+	border-bottom: 1px solid #cdcdcd;
+	display: block;
+	margin: 0;
+	padding: 0;
+        
+}
+#middle div > a:hover {
+	opacity: 0.8;
+}
+#middle div > a img {
+    
+	border: 0;
+	display: block;
+        width: 240px;
+}
+#middle div h3 {
+	background: url(../images/dots.gif) no-repeat bottom center;
+	
+        color: #144879;
+	font-family: 'Arapey';
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 18px 0 21px;
+	text-align: center;
+	text-transform: capitalize;
+}
+#middle div p {
+    
+	color: #797979;
+	font-size: 13px;
+	line-height: 24px;
+	margin: 0;
+	padding: 13px 20px 19px;
+	text-align: center;
+}
+#middle div p a {
+	color: #797979;
+	text-decoration: underline;
+}
+#middle div p a:hover {
+	color: #333;
+}
+
+#last {
+    clear:both;
+	background: #ffc605 url(../images/bg-footer.jpg) repeat-x center top;
+        width: 800px;
+        height:400px;
+       margin:750px 0px 0;
+       
+        
+}
+#last div {
+	width: 950px;
+	margin: 0 auto;
+	padding: 0px 0px  24px;
+}
+
+#last ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 40px;
+	padding: 0;
+}
+#last ul li {
+	float: left;
+	height: 342px;
+	width: 200px;
+}
+#last ul li img {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+#last ul li h4 {
+	color: #3f2608;
+	font-family: 'DeliusSwashCapsRegular';
+	line-height: 30px;
+	margin: 0;
+	padding: 0 20px;
+	text-shadow: 1px 1px #f2f96f;
+}
+#last ul li p {
+	color: #3f2608;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0 20px 18px;
+	text-align: justify;
+}
+
